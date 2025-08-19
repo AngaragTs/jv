@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // 1. Өгөгдсөн тоо нь 5-д хуваагддаг үгүйг шалгана уу.
+      //let a = 32;
+      // if (a % 5 == 0) {
+      //  console.log(true);
+      //} else {
+      //  console.log(false);
+      //}
+
+      //   2. Өгөгдсөн үсгийг шалгаад эгшиг бол "vowel" , гийгүүлэгч бол "consonant" гэж хэвлэнэ үү .
+      //let aplh = "R";
+      //if (aplh == "a" || a == "E" || a == "i" || a == "O") {
+      //  console.log("vowel");
+      //} else {
+      //  console.log("Consonant");
+      //}
+
+      // 3. Өгөгдсөн тоо 1-ээс 100-н хооронд байвал "include" , байхгүй бол "exclude" гэж хэвлэнэ үү .
+      //let num = 101;
+      //if (num < 100 && num > 1) {
+      //  console.log("include");
+      //} else {
+      //  console.log("exclude");
+      //}
+
+      // 4. 3 тооноос хамгийн ихийг нь олж хэвлэнэ үү .
+      //let number = 8;
+      //let number2 = 24;
+      //let number3 = 32;
+      //if (number < number2 && number < number3) {
+      //  console.log(number3);
+      //} else if (number2 < number3 && number2 > number) {
+      //  console.log(number3);
+      //} else if (number3 > number && number3 > number2) {
+      //  console.log(number3);
+      //}
+
+      // 5. Өгөгдсөн жил нь Олимпийн жил мөн бишийг шалгаад хэвлэнэ үү .
+      //let year = 2008;
+      //if (year == 2008 || year == 2012 || year == 2016 || year == 2020) {
+      //  console.log("olympia year");
+      //} else {
+      //  console.log("not");
+      //}
+
+      // 8. Өгөгдсөн сурагчийн дүнг A , B , C , D , F бүлэгт ангилж хэвлэнэ үү .
+      //let grade = 30;
+      //if (grade >= 90 && 100 >= grade) {
+      //  console.log("A");
+      //} else if (grade >= 80 && 89 >= grade) {
+      //  console.log("B");
+      //} else if (grade >= 70 && 79 >= grade) {
+      //  console.log("C");
+      //} else if (grade >= 60 && 69 >= grade) {
+      //  console.log("D");
+      //} else if (grade >= 0 && 59 >= grade) {
+      // console.log("F");
+      //}
+
+      // 9. Өгөгдсөн сарыг шалгаад тохирох улирлыг хэвлэнэ үү .
+      //let month = "12";
+      //if (month == "12" || month == "1" || month == "2") {
+      //  console.log("Winter");
+      //} else if (month == "3" || month == "4" || month == "5") {
+      //  console.log("Spring");
+      //} else if (month == "6" || month == "7" || month == "8") {
+      //  console.log("Summer");
+      //} else if (month == "9" || month == "10" || month == "11") {
+      //  console.log("Autumn");
+      //}
+
+      // 10. Яг одоогийн цагийг шалган өглөө бол "Good morning", өдөр бол "Good afternoon",
+      // орой бол "Good evening" гэж хэвлэнэ үү .
+      //let time = 18;
+      //if (time >= 6 && 10 >= time) {
+      //  console.log("GoodMorning");
+      //} else if (time >= 11 && 15 >= time) {
+      //  console.log("GoodAfternoon");
+      //} else if (time >= 16 && 20 >= time) {
+      //  console.log("GoodEvening");
+      //}
+
+      // 11. Цаг агаарын температур болон "sunny" эсвэл "rainy" гэж өгөгдөх ба бороотой бол "Don't forget your umbrella!" ,
+      // нартай бол температур нь 30-аас их бол "It's a hot day!" , 20-30 градус бол "It's a warm day" ,
+      // 20-оос бага бол "It's a bit cool today" гэж хэвлэнэ үү .
+      let temp = 25;
+      let weather = "rainy";
+
+      if (weather == "rainy") {
+        console.log("Don't forget your umbrella!");
+      } else if (weather == "sunny" && temp >= 20 && 30 >= temp) {
+        console.log("It's a warm day");
+      } else if (weather == "sunny" && temp > 30) {
+        console.log("It's a hot day");
+      } else if (weather == "sunny" && temp <= 20) {
+        console.log("It's a bit cool today");
+      }
+    </script>
+  </body>
+</html>
+s
